@@ -1,8 +1,8 @@
 # The amazing quiz
 
-This project was created in React with TypeScript. 
+This project was created in React with TypeScript. View live [here...](https://a-midsummer-quiz.netlify.app/)
 
-The base is done from this FreeCodeCamp-project[Build a Quiz App](https://www.youtube.com/watch?v=F2JCjVSZlG0&ab_channel=freeCodeCamp.org).
+The base is done from this FreeCodeCamp-project [Build a Quiz App](https://www.youtube.com/watch?v=F2JCjVSZlG0&ab_channel=freeCodeCamp.org).
 
 ## Available Scripts
 
