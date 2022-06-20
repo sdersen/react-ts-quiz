@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(106, 127, 250);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.start-btn {
+  background-color: bisque;
+  width: 200px;
+  height: 50px;
+  border: 2px darkblue solid;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.next-question {
+  background-color: #efa48b;
+  width: 150px;
+  height: 30px;
+  border: 1px darkblue solid;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
 }
