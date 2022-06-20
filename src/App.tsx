@@ -3,6 +3,7 @@ import QuestionCard from './components/QuestionCard';
 import './App.css';
 import { getQuestions } from './api';
 import { Difficulty, QuestionState } from './api';
+import { IoFlower } from 'react-icons/io5';
 
 export type AnswerObject = {
   question: string;
@@ -62,7 +63,14 @@ const App = () => {
 
   return (
     <div className='App'>
-      <h1>The amazing quiz</h1>
+      <div className='flowes'>
+        <IoFlower size='40' fill='yellow' />
+        <IoFlower size='40' fill='blue'/>
+        <IoFlower size='40' fill='pink'/>
+        <IoFlower size='40' fill='red'/>
+        <IoFlower size='40' fill='green'/>
+      </div>
+      <h1>The amazing midsummer quiz</h1>
       {gameOver || userAnswer.length === TOTAL_QUESTIONS ? (
         <button className='start-btn' onClick={startQuiz}>
           Start quiz!
